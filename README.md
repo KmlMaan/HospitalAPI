@@ -93,3 +93,16 @@ input form body: (send status, it is an enum which includes : [N,TQ,SQ,PA] which
 
 
 status is an enum which includes : [N,TQ,SQ,PA] which maps to [Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit]
+
+
+
+This code follows MVC pattern and hence everything is differentiated and well managed:
+
+/routes - containes all the routes.
+/routes/api - containes api files
+/assets - static js css and image files.
+/controller - contains functions to connect to different routes.
+/controller/api - contains functions to connect to different end points of api.
+/model - to store data in db we need models.
+/config - contains config files for mongoose, passport or any other configs such as middlewares.
+/test - contains files to test the code. 
