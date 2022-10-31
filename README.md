@@ -1,4 +1,32 @@
 # HospitalAPI
+Testing:
+Doctor Registration :
+![image](https://user-images.githubusercontent.com/114986701/199009910-aa30083e-14dd-4547-b96c-ef79840446fd.png)
+
+Doctor Login :
+![image](https://user-images.githubusercontent.com/114986701/199010049-546194b8-5183-4ae4-9970-82f107265631.png)
+
+Paitent Registration :
+![image](https://user-images.githubusercontent.com/114986701/199010168-105afada-4ccf-4548-8bbb-5dce9dfaf2c9.png)
+
+Doctor can genrate the report like:
+![image](https://user-images.githubusercontent.com/114986701/199010299-c38f1749-7ac9-47c4-a961-f990eb8370d6.png)
+
+
+Fetching could be done by 
+1. Phone number (by user or doctor)
+![image](https://user-images.githubusercontent.com/114986701/199010490-b3810e96-9816-4987-8305-8dd3c6954455.png)
+
+
+2. BY status of paitents (Only by doctor)
+![image](https://user-images.githubusercontent.com/114986701/199010590-b4b05266-3b09-4714-8c03-f4f8c3382445.png)
+
+
+Prerequistries:
+1.MONGO DB
+2.NODE JS
+3.Postman
+
 
 Basic Features:
 
